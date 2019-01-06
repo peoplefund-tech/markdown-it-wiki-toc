@@ -1,5 +1,7 @@
 # markdown-it-wiki-toc
 
+[![Version](https://img.shields.io/npm/v/markdown-it-wiki-toc.svg)](https://www.npmjs.com/package/markdown-it-wiki-toc)
+
 > Markdown-it plugin to add Wiki style Table Of Contents
 
 ## Installation
@@ -97,5 +99,11 @@ default: `false`
 Value of whether the link in the anchor of the heading points to TOC.
 
 If the value is `true`, result is `<h?><a href="#toc">...</a>...</h?>`.
+
+## Test
+
+```
+$ npm run test
+```
 
 ## [LICENSE](LICENSE)
