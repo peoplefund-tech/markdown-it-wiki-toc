@@ -4,7 +4,7 @@
   "description": "Markdown-it plugin to add Wiki style Table Of Contents",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha test/*.js --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,9 @@
     "url": "https://github.com/n0rr7882/markdown-it-wiki-toc/issues"
   },
   "homepage": "https://github.com/n0rr7882/markdown-it-wiki-toc#readme",
-  "dependencies": {
-    "markdown-it": "^8.4.2"
+  "devDependencies": {
+    "markdown-it": "^8.4.2",
+    "markdown-it-testgen": "^0.1.4",
+    "mocha": "^5.2.0"
   }
 }

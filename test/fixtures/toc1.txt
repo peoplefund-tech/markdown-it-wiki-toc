@@ -1,0 +1,90 @@
+Test1
+.
+@[toc]
+.
+<p><div id="toc" class="toc"><h3>Table of Contents</h3></div></p>
+.
+
+Test2
+.
+@[toc]
+
+# First H1
+
+Some contents...
+
+## First H2
+
+Some contents...
+
+# Second H1
+
+## Second H2
+
+### First H3
+.
+<p><div id="toc" class="toc"><h3>Table of Contents</h3><ul class="toc-level"><li><a href="#h-1">1.</a> First H1</li><ul class="toc-level"><li><a href="#h-1.1">1.1.</a> First H2</li></ul><li><a href="#h-2">2.</a> Second H1</li><ul class="toc-level"><li><a href="#h-2.1">2.1.</a> Second H2</li><ul class="toc-level"><li><a href="#h-2.1.1">2.1.1.</a> First H3</li></ul></ul></ul></div></p>
+<h1><a href="#h-1" id="h-1">1.</a> First H1</h1>
+<p>Some contents...</p>
+<h2><a href="#h-1.1" id="h-1.1">1.1.</a> First H2</h2>
+<p>Some contents...</p>
+<h1><a href="#h-2" id="h-2">2.</a> Second H1</h1>
+<h2><a href="#h-2.1" id="h-2.1">2.1.</a> Second H2</h2>
+<h3><a href="#h-2.1.1" id="h-2.1.1">2.1.1.</a> First H3</h3>
+.
+
+Test3
+.
+@[toc]
+
+First Title
+===========
+
+Some Content
+
+SubTitle
+--------
+
+Some content
+
+Second Title
+============
+
+### First H3
+.
+<p><div id="toc" class="toc"><h3>Table of Contents</h3><ul class="toc-level"><li><a href="#h-1">1.</a> First Title</li><ul class="toc-level"><li><a href="#h-1.1">1.1.</a> SubTitle</li></ul><li><a href="#h-2">2.</a> Second Title</li><ul class="toc-level"><ul class="toc-level"><li><a href="#h-2.0.1">2.0.1.</a> First H3</li></ul></ul></ul></div></p>
+<h1><a href="#h-1" id="h-1">1.</a> First Title</h1>
+<p>Some Content</p>
+<h2><a href="#h-1.1" id="h-1.1">1.1.</a> SubTitle</h2>
+<p>Some content</p>
+<h1><a href="#h-2" id="h-2">2.</a> Second Title</h1>
+<h3><a href="#h-2.0.1" id="h-2.0.1">2.0.1.</a> First H3</h3>
+.
+
+Test4
+.
+@[toc]
+
+#### H4
+
+### H3
+
+## H2
+
+# H1
+
+## H2
+
+### H3
+
+#### H4
+.
+<p><div id="toc" class="toc"><h3>Table of Contents</h3><ul class="toc-level"><ul class="toc-level"><ul class="toc-level"><ul class="toc-level"><li><a href="#h-0.0.0.1">0.0.0.1.</a> H4</li></ul><li><a href="#h-0.0.1">0.0.1.</a> H3</li></ul><li><a href="#h-0.1">0.1.</a> H2</li></ul><li><a href="#h-1">1.</a> H1</li><ul class="toc-level"><li><a href="#h-1.1">1.1.</a> H2</li><ul class="toc-level"><li><a href="#h-1.1.1">1.1.1.</a> H3</li><ul class="toc-level"><li><a href="#h-1.1.1.1">1.1.1.1.</a> H4</li></ul></ul></ul></ul></div></p>
+<h4><a href="#h-0.0.0.1" id="h-0.0.0.1">0.0.0.1.</a> H4</h4>
+<h3><a href="#h-0.0.1" id="h-0.0.1">0.0.1.</a> H3</h3>
+<h2><a href="#h-0.1" id="h-0.1">0.1.</a> H2</h2>
+<h1><a href="#h-1" id="h-1">1.</a> H1</h1>
+<h2><a href="#h-1.1" id="h-1.1">1.1.</a> H2</h2>
+<h3><a href="#h-1.1.1" id="h-1.1.1">1.1.1.</a> H3</h3>
+<h4><a href="#h-1.1.1.1" id="h-1.1.1.1">1.1.1.1.</a> H4</h4>
+.
