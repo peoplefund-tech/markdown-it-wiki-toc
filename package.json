@@ -1,0 +1,29 @@
+{
+  "name": "markdown-it-wiki-toc",
+  "version": "1.0.0",
+  "description": "Markdown-it plugin to add Wiki style Table Of Contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0rr7882/markdown-it-wiki-toc.git"
+  },
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "markdown-it-plugin",
+    "markdown-it-wiki",
+    "markdown-it-toc"
+  ],
+  "author": "Dongho Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n0rr7882/markdown-it-wiki-toc/issues"
+  },
+  "homepage": "https://github.com/n0rr7882/markdown-it-wiki-toc#readme",
+  "dependencies": {
+    "markdown-it": "^8.4.2"
+  }
+}
