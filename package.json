@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-wiki-toc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Markdown-it plugin to add Wiki style Table Of Contents",
   "main": "index.js",
   "scripts": {
