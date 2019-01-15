@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n0rr7882/markdown-it-wiki-toc.git"
+    "url": "git+https://github.com/peoplefund-tech/markdown-it-wiki-toc.git"
   },
   "keywords": [
     "markdown",
@@ -20,9 +20,9 @@
   "author": "Dongho Yu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/n0rr7882/markdown-it-wiki-toc/issues"
+    "url": "https://github.com/peoplefund-tech/markdown-it-wiki-toc/issues"
   },
-  "homepage": "https://github.com/n0rr7882/markdown-it-wiki-toc#readme",
+  "homepage": "https://github.com/peoplefund-tech/markdown-it-wiki-toc#readme",
   "devDependencies": {
     "markdown-it": "^8.4.2",
     "markdown-it-testgen": "^0.1.4",
